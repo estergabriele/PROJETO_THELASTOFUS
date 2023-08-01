@@ -2,6 +2,15 @@ body {
     font-family: 'Poppins';
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9ba4b9;
+    border-radius: 20px;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
